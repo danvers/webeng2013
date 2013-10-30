@@ -3,9 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <title>My Little Website</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<script type="text/javascript" type="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/screen.css" />
 </head>
 <body>
-<h1>My First Homework</h1>
-<p>Hello World ;-)</p>
+<div id="page">
+	<div id="header">
+		<h1>My First Homework</h1>
+		<small>Hello World - weil kreative Slogans nicht zur Verfügung standen</small>
+	</div>
+	<div id="content">
+		<h2>Some Content</h2>
+		<p>Eigentlich wollte ich fleißig CSS-Klassen aus Bootstrap verwenden, aber 
+		dann <a href="http://ruby.bvision.com/blog/please-stop-embedding-bootstrap-classes-in-your-html" title="Please stop embedding Bootstrap classes in your HTML!">habe ich gelesen, 
+		dass es ja doch keine so gute Idee wäre</a>, das Markup direkt an <a href="http://getbootstrap.com/" title="Bootstrap">Bootstrap</a> zu binden. 
+		Die empfohlene Alternative ist eine Abstraktion des CSS über <a href="http://lesscss.org" title="lesscss">less</a>. Je nachdem, wie groß das Kursprojekt wird, könnte man das dann ja später noch implementieren.
+		</p>
+	</div>
+	<div id="footer">
+		<ul>
+			<li>manchmal bin ich auch auf <a href="https://www.pixelspace.org">pixelspace.org</a> zu finden</li>
+		</ul>
+	</div>
+ </div>
 </body>
 </html>

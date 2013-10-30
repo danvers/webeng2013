@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+#page
+{
+	width:80%;
+	margin:0 auto;
+}
+#header{
+	border-bottom:1px solid #ccc;
+
+}
+#footer{
+	border-top:2px solid #ccc;	
+	padding:2%;
+	text-align:right;
+}
+#footer ul li
+{
+	display:inline-block;
+}
+
+h1{
+	margin-bottom:0;
+}
